@@ -93,31 +93,9 @@
             Dataset Drift Preflight
           </div>
 
-          <p class="report">
-            Previous rows: 5
-            Current rows: 2
-            <br>
+          
+<p class="report">Previous rows: 5   Current rows: 2<br><span class="fail">FAIL</span> Column removed: quantity<br><span class="fail">FAIL</span> price numeric → text<br><span class="fail">FAIL</span> Row-count drop: 60%<br><span class="fail">FAIL</span> Duplicate product_id<br><br><span class="good">Local processing; no data upload</span></p>
 
-            <span class="fail">FAIL</span>
-            Column removed: quantity
-            <br>
-
-            <span class="fail">FAIL</span>
-            price numeric → text
-            <br>
-
-            <span class="fail">FAIL</span>
-            Row-count drop: 60%
-            <br>
-
-            <span class="fail">FAIL</span>
-            Duplicate product_id
-            <br><br>
-
-            <span class="good">
-              Local processing; no data upload
-            </span>
-          </p>
 
           <small style="color:#d0dce5">
             Illustrative output based on the plugin's test scenario.
