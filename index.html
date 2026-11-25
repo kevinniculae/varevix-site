@@ -1,5 +1,7 @@
+
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,6 +16,8 @@
 </head>
 
 <body>
+
+  <!-- HEADER -->
 
   <header>
     <div class="shell">
@@ -64,24 +68,24 @@
           <!-- INSTALL BUTTON -->
 
           <p>
-            <a href="https://plugins.jetbrains.com/plugin/36344-dataset-drift-preflight"
-               target="_blank"
-               rel="noopener noreferrer"
-               style="
-                 display:inline-block;
-                 margin-top:16px;
-                 padding:13px 24px;
-                 background:#087e79;
-                 color:#ffffff;
-                 border-radius:8px;
-                 text-decoration:none;
-                 font-weight:600;
-                 font-size:15px;
-               ">
+            <a
+              href="https://plugins.jetbrains.com/plugin/36344-dataset-drift-preflight"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="
+                display:inline-block;
+                margin-top:16px;
+                padding:13px 24px;
+                background:#087e79;
+                color:#ffffff;
+                border-radius:8px;
+                text-decoration:none;
+                font-weight:600;
+                font-size:15px;
+              ">
               Get Dataset Drift Preflight — Free
             </a>
           </p>
-
         </div>
 
         <!-- ILLUSTRATIVE REPORT -->
@@ -93,11 +97,51 @@
             Dataset Drift Preflight
           </div>
 
-          
-<p class="report">Previous rows: 5   Current rows: 2<br><span class="fail">FAIL</span> Column removed: quantity<br><span class="fail">FAIL</span> price numeric → text<br><span class="fail">FAIL</span> Row-count drop: 60%<br><span class="fail">FAIL</span> Duplicate product_id<br><br><span class="good">Local processing; no data upload</span></p>
+          <!-- COMPACT REPORT -->
 
+          <div style="
+            font-family:Consolas,Monaco,monospace;
+            font-size:14px;
+            line-height:1.6;
+            color:#f5f8fc;
+            margin:18px 0;
+            white-space:normal;
+          ">
 
-          <small style="color:#d0dce5">
+            <div style="margin-bottom:14px;">
+              Previous rows: 5
+              <span style="margin-left:12px;">
+                Current rows: 2
+              </span>
+            </div>
+
+            <div style="margin-bottom:6px;">
+              <span class="fail">FAIL</span>
+              Column removed: quantity
+            </div>
+
+            <div style="margin-bottom:6px;">
+              <span class="fail">FAIL</span>
+              price numeric → text
+            </div>
+
+            <div style="margin-bottom:6px;">
+              <span class="fail">FAIL</span>
+              Row-count drop: 60%
+            </div>
+
+            <div style="margin-bottom:16px;">
+              <span class="fail">FAIL</span>
+              Duplicate product_id
+            </div>
+
+            <div class="good">
+              Local processing; no data upload
+            </div>
+
+          </div>
+
+          <small style="color:#d0dce5;">
             Illustrative output based on the plugin's test scenario.
           </small>
 
@@ -165,9 +209,10 @@
 
         <p>
           <strong>Download:</strong>
-          <a href="https://plugins.jetbrains.com/plugin/36344-dataset-drift-preflight"
-             target="_blank"
-             rel="noopener noreferrer">
+          <a
+            href="https://plugins.jetbrains.com/plugin/36344-dataset-drift-preflight"
+            target="_blank"
+            rel="noopener noreferrer">
             Get Dataset Drift Preflight on JetBrains Marketplace
           </a>
         </p>
